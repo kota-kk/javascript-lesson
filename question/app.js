@@ -133,8 +133,9 @@ console.log(Math.round(Math.random() * 9));
 // Q2 - 2
 // 関数 setTimeout を使用し、3 秒後にコンソールに出力してください。
 function helloWorld() {
-  setTimeout(3000);
-  console.log('Hello World!');
+  setTimeout(() => {
+    console.log('Hello World!')
+  }, 3000);
 }
 
 helloWorld();
