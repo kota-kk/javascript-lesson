@@ -128,7 +128,7 @@ let Q10 = 'xは関数内で定義されている変数であるため、関数�
 
 // Q1 - 2
 // 標準組み込みオブジェクト Math を使用し、0 ~ 9 のランダムな整数をコンソールに出力してください。
-console.log(Math.round(Math.random() * 9));
+console.log(Math.floor(Math.random() * 10));
 
 // Q2 - 2
 // 関数 setTimeout を使用し、3 秒後にコンソールに出力してください。
